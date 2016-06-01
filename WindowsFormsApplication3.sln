@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddSample", "WindowsFormsApplication3\AddSample.csproj", "{C6B2C0F2-08EF-4C7E-84D6-8EFF3A323559}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E257CF3B-002A-4EAB-A9C8-3419BF73A952} = {E257CF3B-002A-4EAB-A9C8-3419BF73A952}
+		{A76AA475-45F8-4083-8F7E-4ED8BAF93983} = {A76AA475-45F8-4083-8F7E-4ED8BAF93983}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Communication", "Communication\Communication.csproj", "{A76AA475-45F8-4083-8F7E-4ED8BAF93983}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E257CF3B-002A-4EAB-A9C8-3419BF73A952} = {E257CF3B-002A-4EAB-A9C8-3419BF73A952}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogHelper", "LogHelper\LogHelper.csproj", "{E257CF3B-002A-4EAB-A9C8-3419BF73A952}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6B2C0F2-08EF-4C7E-84D6-8EFF3A323559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6B2C0F2-08EF-4C7E-84D6-8EFF3A323559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6B2C0F2-08EF-4C7E-84D6-8EFF3A323559}.Debug|x86.ActiveCfg = Debug|x86
+		{C6B2C0F2-08EF-4C7E-84D6-8EFF3A323559}.Debug|x86.Build.0 = Debug|x86
+		{C6B2C0F2-08EF-4C7E-84D6-8EFF3A323559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6B2C0F2-08EF-4C7E-84D6-8EFF3A323559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6B2C0F2-08EF-4C7E-84D6-8EFF3A323559}.Release|x86.ActiveCfg = Release|x86
+		{C6B2C0F2-08EF-4C7E-84D6-8EFF3A323559}.Release|x86.Build.0 = Release|x86
+		{A76AA475-45F8-4083-8F7E-4ED8BAF93983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A76AA475-45F8-4083-8F7E-4ED8BAF93983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A76AA475-45F8-4083-8F7E-4ED8BAF93983}.Debug|x86.ActiveCfg = Debug|x86
+		{A76AA475-45F8-4083-8F7E-4ED8BAF93983}.Debug|x86.Build.0 = Debug|x86
+		{A76AA475-45F8-4083-8F7E-4ED8BAF93983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A76AA475-45F8-4083-8F7E-4ED8BAF93983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A76AA475-45F8-4083-8F7E-4ED8BAF93983}.Release|x86.ActiveCfg = Release|x86
+		{A76AA475-45F8-4083-8F7E-4ED8BAF93983}.Release|x86.Build.0 = Release|x86
+		{E257CF3B-002A-4EAB-A9C8-3419BF73A952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E257CF3B-002A-4EAB-A9C8-3419BF73A952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E257CF3B-002A-4EAB-A9C8-3419BF73A952}.Debug|x86.ActiveCfg = Debug|x86
+		{E257CF3B-002A-4EAB-A9C8-3419BF73A952}.Debug|x86.Build.0 = Debug|x86
+		{E257CF3B-002A-4EAB-A9C8-3419BF73A952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E257CF3B-002A-4EAB-A9C8-3419BF73A952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E257CF3B-002A-4EAB-A9C8-3419BF73A952}.Release|x86.ActiveCfg = Release|x86
+		{E257CF3B-002A-4EAB-A9C8-3419BF73A952}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
